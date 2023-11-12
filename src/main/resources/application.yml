@@ -1,0 +1,8 @@
+app:
+  datasource:
+    jdbc-url: jdbc:postgresql://localhost:5432/springbootTutor
+    username: postgres
+    password: root
+    pool-size: 30
+  flyway:
+    locations: classpath:db/migration
